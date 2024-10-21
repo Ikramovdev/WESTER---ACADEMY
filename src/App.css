@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Fonts  */
+@font-face {
+  font-display: swap; 
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets//fonts/onest-v6-latin-regular.woff2') format('woff2'); 
+}
+@font-face {
+  font-display: swap; 
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./assets//fonts/onest-v6-latin-500.woff2') format('woff2'); 
+}
+@font-face {
+  font-display: swap; 
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./assets//fonts/onest-v6-latin-600.woff2') format('woff2'); 
+}
+@font-face {
+  font-display: swap; 
+  font-family: 'Onest';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/fonts/onest-v6-latin-700.woff2') format('woff2'); 
+}
+@font-face {
+  font-display: swap; 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/inter-v18-latin-regular.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap; 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./assets//fonts/inter-v18-latin-500.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap; 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/fonts/inter-v18-latin-700.woff2') format('woff2');
+}
+/* Fonts  */
+
+body{
+  font-family: "Onest",sans-serif;
+  font-family: "Inter",sans-serif;
+}
+
+/* Hero section  */
+.Hero-top-content{
+  background: linear-gradient(94.46deg, #398F78 0.42%, #20E393 92.65%);
+  border-radius: 20px;
+}
