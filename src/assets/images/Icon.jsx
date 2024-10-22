@@ -5,5 +5,4 @@ function CallIcon(){
         </svg>
 )
 }
-
 export {CallIcon}

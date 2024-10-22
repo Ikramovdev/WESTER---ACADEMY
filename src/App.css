@@ -65,3 +65,6 @@ body{
   background: linear-gradient(94.46deg, #398F78 0.42%, #20E393 92.65%);
   border-radius: 20px;
 }
+.experience-item{
+  background: linear-gradient(135deg, #399279 0%, #21E494 100%);
+}
