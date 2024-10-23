@@ -11,7 +11,7 @@ import ButtonPlus from "../assets/images/ButtonPlus.svg"
 
 const Hero = () => {
   return (
-    <section className='mt-10 lg:mt-[24px]'>
+    <section className='lg:mt-[24px]'>
       <div className='container w-full lg:w-[1300px] mx-auto'>
         <div className='Hero-top-content relative mx-3 md:mx-10 lg:mx-0 pt-[20px] md:pt-[50px] lg:pt-[84px] pl-4 md:pl-[50px] lg:pl-[60px] mb-[40px]'>
             <div>
