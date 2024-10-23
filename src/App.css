@@ -69,43 +69,41 @@ body{
 .experience-item{
   background: linear-gradient(135deg, #399279 0%, #21E494 100%);
 }
-.team-work-card{
-  background: linear-gradient(128.7deg, #398C77 0%, #16FF9B 101.46%);
-}
-.light-img{
-  background-image: url('../src/assets/images/LightImg.png');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
 
-.drection-card1{
-  background-image: url('./assets/images/drectionCard1LeftImg.png'),url('./assets/images/drectioncard1RightImg.png');
+
+/* drection item imgs  */
+.drection-item1{
+  background-image: url('./assets/images/drectionCard1LeftImg.png'),url('./assets/images/drection-card1-RightImg.png');
   background-repeat: no-repeat;
-  background-size: 65px 155px,115px 172px;
-  background-position: left bottom,104% 20px;
+  background-size: 65px 155px , 115px 173;  
+  background-position: left bottom,right 20px;
 }
-.drection-card3{
+.drection-item2{
+  background-image: url('./assets/images/drection2-bottom-Img.png'),url('./assets/images/drection2-top-Img.png');
+  background-repeat: no-repeat;
+  background-size: 157px 62px , 189px 123.5px;  
+  background-position: 376px bottom, 356px top;
+}
+.drection-item3{
   background-image: url('./assets/images/drection3-icon.png');
   background-repeat: no-repeat;
-  background-size: 93px 36px;
+  background-repeat: 93px 96px;
   background-position: 197px bottom;
 }
-.drection-card4{
-  background-image: url('./assets/images/drection4Icon.svg');
+.drection-item4{
+  background-image: url('./assets/images/drection4-item-Img.png');
   background-repeat: no-repeat;
-  background-size: 160px 127px;
-  background-position: top right;
+  background-repeat: 160px 127px;
+  background-position: right top;
 }
-.drection-card5{
-  background-image: url('./assets/images/drection5Icon.svg');
+.drection-item5{
+  background-image: url('./assets/images/drection5-item-Img.png');
   background-repeat: no-repeat;
-  background-size: 93px 50px;
-  background-position: top right;
+  background-repeat: 160px 127px;
+  background-position: right top;
 }
+/* drection item imgs  */
 
-.drection-bg{
+.identifier{
   background: linear-gradient(128.7deg, #398C77 0%, #16FF9B 101.46%);
-}
-.add-shadow{
-  box-shadow: 0px 48px 100px 0px #110C2E1A;
 }
