@@ -3,6 +3,7 @@ import Drection from './components/Drection'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Questions from './components/Questions'
+import Teachers from './components/Teachers'
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
       <Hero/>
       <Drection/>
       <Questions/>
+      <Teachers/>
     </main>
     </>
   )
