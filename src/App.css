@@ -9,7 +9,7 @@
   font-family: 'Onest';
   font-style: normal;
   font-weight: 400;
-  src: url('./assets/fonts/inter-v18-latin-regular.woff2') format('woff2'); 
+  src: url('./assets/fonts/onest-v6-latin-regular.woff2') format('woff2'); 
 }
 @font-face {
   font-display: swap; 
@@ -30,7 +30,7 @@
   font-family: 'Onest';
   font-style: normal;
   font-weight: 700;
-  src: url('./assets/fonts/onest-v6-latin-700.woff2') format('woff2'); 
+  src: url('../src/assets/fonts/inter-v18-latin-700.woff2') format('woff2'); 
 }
 @font-face {
   font-display: swap; 
@@ -56,8 +56,8 @@
 /* Fonts  */
 
 body{
-  font-family: "Onest",sans-serif;
-  font-family: "Inter",sans-serif;
+  font-family: "Inter" , sans-serif;
+  font-family: "Onest" ,  sans-serif;
   scroll-behavior: smooth;
 }
 
